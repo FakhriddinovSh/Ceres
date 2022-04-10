@@ -1,0 +1,145 @@
+.hero{
+    background-image: url(../Images/hero__background-image.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 758px;
+    &__contents{
+        display: flex;
+    }
+    &__contents__title{
+        padding-left: 100px;
+    }
+    &__contents__title > h2{
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 70px;
+        color: #FFFFFF;
+        padding-top: 300px;
+    }
+    &__contents__title > p{
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+    }
+    &__contents__cards{
+        display: block;
+        width: 470px;
+        height: 520px;
+        margin-left: auto;
+        margin-top: 122px;
+    }
+    &__group__one, &__group__two, &__group__three{
+        display: flex;
+    }
+    &__contents__card{
+        width: 230px;
+        height: 170px;
+        background: #fff;
+        margin: 2px 2px;
+    }
+    &__contents__card > p{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        color: #222222;
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+    &__contents__card__1{
+        cursor: pointer;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background-image: url(../Images/group__after-1.svg);
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+            top: 30px;
+            right: 30px;
+        }
+    }
+    &__contents__card__2{
+        cursor: pointer;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background-image: url(../Images/group__after-2.svg);
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+            top: 30px;
+            right: 30px;
+        }
+    }
+    &__contents__card__3{
+        cursor: pointer;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background-image: url(../Images/group__after-3.svg);
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+            top: 30px;
+            right: 30px;
+        }
+    }
+    &__contents__card__4{
+        cursor: pointer;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background-image: url(../Images/group__after-4.svg);
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+            top: 30px;
+            right: 30px;
+        }
+    }
+    &__contents__card__5{
+        cursor: pointer;
+        position: relative;
+        background: #007D35;
+        border-radius: 50px 0px;
+        &::after{
+            position: absolute;
+            content: "";
+            background-image: url(../Images/group__after-5.svg);
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+            top: 30px;
+            right: 30px;
+        }
+        & > p{
+            color: white;
+        }
+    }
+    &__contents__card__6{
+        cursor: pointer;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background-image: url(../Images/group__after-6.svg);
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+            top: 30px;
+            right: 30px;
+        }
+        
+    }
+}

@@ -4,20 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Ceres Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
-
 </head>
 <body>
+    <h1 class="visually-hidden">Ceres Website</h1>
+    <!-- Header  -->
+    <header class="header container">
+        <nav class="header__nav">
+            <a class="header__logo" href="index.html">
+                <img src="./Images/website-logo.svg" alt="Website logo">
+                <ul class="header__list">
+                    <li class="header__list__item">
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#">О нас</a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#">Новости и статьи</a>
+                    </li>
+                    <li class="header__list__item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+
+                <div class="header__contact">
+                    <a class="header__contact__tel" href="tel: +38 067 468 18 75">+38 067 468 18 75</a>
+                    <a class="header__contact__mail" href="#">info@ceres.com.ua</a>
+                </div>
+
+                <div class="header__messengers">
+                        <a class="header__messenger__telegram header__messenger" href="telegram.org">
+                            <img src="./Images/telegram.svg" alt="Telegram icon">
+                        </a>
+                        <a class="header__messenger__instagram header__messenger" href="Instagram.com">
+                            <img src="./Images/instagram.svg" alt="instagram icon">
+                        </a>
+                        <a class="header__messenger__facebook header__messenger" href="Facebook.com">
+                            <img src="./Images/Facebook.svg" alt="Facebook icon">
+                        </a>
+                </div>
+
+                <div class="header__currency">
+                    <img class="header__currency__image"
+                    src="./Images/Dollar-icon.png" alt="Rounded-dollar icon">
+                    <p>32.40 ₴</p>
+                </div>
+
+                <div class="header__language">
+                    <select class="header__language__select">
+                        <option class="header__language__option" value="Rus">Рус</option>
+                        <option class="header__language__option" value="Eng">Eng</option>
+                    </select>
+                </div>
+            </a>
+        </nav>
+    </header>    
+    <!-- Main  -->
+    <main class="main">
+
+        <!-- Hero section started -->
+        <div class="hero">
+            <div class="hero__contents container">
+                <div class="hero__contents__title">
+                    <h2>Официальный <br>
+                        дистрибьютор</h2>
+                    <p>В Украине</p>
+                </div>
+
+                <div class="hero__contents__cards">
+                    <div class="hero__group__one">
+                        <div class="hero__contents__card hero__contents__card__1">
+                            <p>Питомники</p>
+                        </div>
+
+                        <div class="hero__contents__card hero__contents__card__2">
+                            <p>Теплицы</p>
+                        </div>
+                    </div>
+
+                    <div class="hero__group__two">
+                        <div class="hero__contents__card hero__contents__card__3">
+                            <p>Ягодоводство</p>
+                        </div>
+                        <div class="hero__contents__card hero__contents__card__4">
+                            <p>Грибоводство</p>
+                        </div>
+                    </div>
+
+                    <div class="hero__group__three">
+                        <div class="hero__contents__card hero__contents__card__5">
+                            <p>Ландшафтный
+                                дизайн</p>
+                        </div>
+                        <div class="hero__contents__card hero__contents__card__6">
+                            <p>Магазины</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero section ended -->
+
+        <!-- Offers section started -->
+        <section class="container">
+            <div class="offers">
+                <h2>Предложения</h2>
+                <div class="offers__group offers__group__one">
+                    <div class="offer__group">
+                        <img src="./Images/offers-1.png" alt="Offers image">
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="offers__group offers__group__two"></div>
+                <div class="offers__group offers__group__three"></div>
+            </div>
+        </section> 
+        <!-- Offers section ended -->
+    </main>
     
-    <!-- Html code here -->
+    <!-- Footer -->
+    <footer class="footer"></footer>
 </body>
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
 <script src="./js/main.js"></script>
-<script>
-// write js code here
-    
-</script>
 </html>
